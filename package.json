@@ -1,16 +1,16 @@
 {
-  "name": "sondage",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/scripts/main.js",
+  "name": "webpack-template",
+  "author": "Hugo G.",
+  "description": "webpack template to initialize a project",
+  "license": "ISC",
+  "version": "0.1.0",
+  "main": "scripts/index.js",
   "scripts": {
     "init": "npm install",
     "watch": "webpack --watch --config configs/default/webpack.config.js",
     "build:default": "webpack --config configs/default/webpack.config.js --progress",
     "build:production": "webpack --config configs/production/webpack.config.js --progress"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.0",
     "@babel/preset-env": "^7.10.4",
