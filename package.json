@@ -1,0 +1,30 @@
+{
+  "name": "sondage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "init": "npm install",
+    "watch": "webpack --watch --config configs/default/webpack.config.js",
+    "build:default": "webpack --config configs/default/webpack.config.js --progress",
+    "build:production": "webpack --config configs/production/webpack.config.js --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss-loader": "^6.2.1",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
